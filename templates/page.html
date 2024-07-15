@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>"Экскурсии из Анталии!"</title>
+  <style>
+    .image-container {
+      position: relative;
+      text-align: center;
+      color: yellow;
+    }
+
+    .image-container img {
+      width: auto;
+      height: auto;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="https://1class.kg/wp-content/uploads/2023/06/h-980-1290x540.jpg" alt="Анталия">
+    <div class="text-overlay">Экскурсии из Анталии - Откройте для себя новые горизонты!</div>
+  </div>
+</body>
+</html>
+
+</head>
+<body>
+    <h1>Экскурсии из Анталии!</h1>
+    <p><h2>Добро пожаловать на нашу страницу экскурсий из Анталии</h2></p>
+    <p><h2>Здесь вы найдете множество увлекательных путешествий, которые помогут вам открыть для себя новые горизонты.</h2></p>
+    <a href="{{ url_for('excursions') }}">
+        <button>Посмотреть экскурсии</button>
+    </a>
+    
+
+
+</body>
+</html>
